@@ -105,7 +105,7 @@
 
 	                  <div class="twelve columns">
 	                     <label  for="contactMessage">Message</label>
-	                     <textarea name="contactMessage"  id="contactMessage" value=<?php echo $_POST['contactMessage']?> rows="10" cols="50" disabled></textarea>
+	                     <textarea name="contactMessage"  id="contactMessage" rows="10" cols="50" disabled><?php echo $_POST['contactMessage']?></textarea>
 	                  </div>
 
                   </div>
