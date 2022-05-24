@@ -77,12 +77,12 @@
 
 	                  <div class="six columns mob-whole">
 	                  	<label for="contactFname">First Name</label>	      						   
-	      					<input name="contactFname" type="text" id="contactFname" placeholder=<?php echo $_POST['contactFname']?> value="" disabled/>	      					
+	      					<input name="contactFname" type="text" id="contactFname" value=<?php echo $_POST['contactFname']?> disabled/>
 	                  </div>
 
 	                  <div class="six columns mob-whole">	
 	                  	<label for="contactLname">Last Name</label>      						   
-	      					<input name="contactLname" type="text" id="contactLname" placeholder=<?php echo $_POST['contactLname']?> value="" disabled/>	      					
+	      					<input name="contactLname" type="text" id="contactLname" value=<?php echo $_POST['contactLname']?> disabled/>	      					
 	                  </div>	                        
 
                   </div>
@@ -91,12 +91,12 @@
 
 	                  <div class="six columns mob-whole">	
 	                  	<label for="contactEmail">Email</label>      						   
-	      					<input name="contactEmail" type="email" id="contactEmail" placeholder=<?php echo $_POST['contactEmail']?> value="" disabled/>	      					
+	      					<input name="contactEmail" type="email" id="contactEmail" value=<?php echo $_POST['contactEmail']?> disabled/>	      					
 	                  </div>
 
 	                  <div class="six columns mob-whole">	 
 	                  	<label for="contactSubject">Subject</label>     						   
-	      					<input name="contactSubject" type="text" id="contactSubject" placeholder=<?php echo $_POST['contactSubject']?>  value="" disabled/>	      					
+	      					<input name="contactSubject" type="text" id="contactSubject" value=<?php echo $_POST['contactSubject']?>  disabled/>	      					
 	                  </div>
 
                   </div>
@@ -105,7 +105,7 @@
 
 	                  <div class="twelve columns">
 	                     <label  for="contactMessage">Message</label>
-	                     <textarea name="contactMessage"  id="contactMessage" placeholder=<?php echo $_POST['contactMessage']?> rows="10" cols="50" disabled></textarea>
+	                     <textarea name="contactMessage"  id="contactMessage" value=<?php echo $_POST['contactMessage']?> rows="10" cols="50" disabled></textarea>
 	                  </div>
 
                   </div>
