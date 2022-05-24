@@ -77,12 +77,12 @@
 
 	                  <div class="six columns mob-whole">
 	                  	<label for="contactFname">First Name</label>	      						   
-	      					<input name="contactFname" type="text" id="contactFname" value=<?php echo $_POST['contactFname']?> disabled/>
+	      					<input name="contactFname" type="text" id="contactFname" value=<?php echo $_POST['contactFname']?>>
 	                  </div>
 
 	                  <div class="six columns mob-whole">	
 	                  	<label for="contactLname">Last Name</label>      						   
-	      					<input name="contactLname" type="text" id="contactLname" value=<?php echo $_POST['contactLname']?> disabled/>	      					
+	      					<input name="contactLname" type="text" id="contactLname" value=<?php echo $_POST['contactLname']?>>	      					
 	                  </div>	                        
 
                   </div>
@@ -91,12 +91,12 @@
 
 	                  <div class="six columns mob-whole">	
 	                  	<label for="contactEmail">Email</label>      						   
-	      					<input name="contactEmail" type="email" id="contactEmail" value=<?php echo $_POST['contactEmail']?> disabled/>	      					
+	      					<input name="contactEmail" type="email" id="contactEmail" value=<?php echo $_POST['contactEmail']?>>	      					
 	                  </div>
 
 	                  <div class="six columns mob-whole">	 
 	                  	<label for="contactSubject">Subject</label>     						   
-	      					<input name="contactSubject" type="text" id="contactSubject" value=<?php echo $_POST['contactSubject']?>  disabled/>	      					
+	      					<input name="contactSubject" type="text" id="contactSubject" value=<?php echo $_POST['contactSubject']?>>	      					
 	                  </div>
 
                   </div>
@@ -105,7 +105,7 @@
 
 	                  <div class="twelve columns">
 	                     <label  for="contactMessage">Message</label>
-	                     <textarea name="contactMessage"  id="contactMessage" rows="10" cols="50" disabled><?php echo $_POST['contactMessage']?></textarea>
+	                     <textarea name="contactMessage"  id="contactMessage" rows="10" cols="50"><?php echo $_POST['contactMessage']?></textarea>
 	                  </div>
 
                   </div>
